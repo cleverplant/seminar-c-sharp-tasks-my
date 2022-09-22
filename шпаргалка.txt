@@ -60,9 +60,9 @@ Console.WriteLine("Bran".Substring(2, 2));
 --------------------------------------------------------------------------------
 string.Insert(11, Word); - вставляет строку в строку (раздел: Стандартная библиотека)
 -------------------------------------------------------------------------------
-var war = "War of the Kings";
-var missingWord = "Five ";
-Console.WriteLine(war.Insert(11, missingWord)); // Вывод: " War of the Five Kings"
+var War = "War of the Kings";
+var Word = "Five ";
+Console.WriteLine(War.Insert(11, Word)); // Вывод: " War of the Five Kings"
 
 --------------------------------------------------------------------------------
 Trim(); Удаление концевых пробельных символов
