@@ -11,10 +11,11 @@
  - получилось кашерно.
 */
 
-// Console.Write("введите число для сравнения: ");
-// int number = (Console.ReadInt());
-int number = 3451;
-//number = number.Math.Abs(number);
+Console.Write("введите число для сравнения: ");
+//int number = (Console.ReadInt());
+int number = Convert.ToInt32(Console.ReadLine());
+//int number = 3451;
+number = Math.Abs(number);
 
 if (number > 99)
 {
