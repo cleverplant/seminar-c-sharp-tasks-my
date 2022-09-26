@@ -2,7 +2,7 @@
 ВозвращаемыйТипДанных ИмяМетода([ТипДанных1 ИмяАргумента1, ... ])
 |          int       |   Max   |    (int   |      arg1,   |   int arg2, | int arg3)   
 */
-int[] ArrayWeek = new int[10];
+int[] ArrayWeek = new int[10]; // <------- так инициализируем массив
 Console.WriteLine(ArrayWeek.Length);
 
 int Max(int arg1, int arg2, int arg3)

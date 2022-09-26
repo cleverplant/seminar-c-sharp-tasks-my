@@ -14,7 +14,7 @@ int LastIndex = N - 1;
 while (i < N)
 {
     {
-    ArrayB[i] = ArrayA[i];
+    ArrayB[i] = ArrayA[i]; // ArrayA[i + 2];
     Console.WriteLine(" A -> " + ArrayA[i] + " ,");
     Console.WriteLine(" B -> " + ArrayB[i] + " ,");
     i = i + 1;
