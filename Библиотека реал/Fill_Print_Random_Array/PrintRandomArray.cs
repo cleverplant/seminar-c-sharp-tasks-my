@@ -1,6 +1,5 @@
 ﻿//------------- функция ввода заполнения массива случайными значениями -------------------
 
-
 void PrintRandomArray(int MinSize = 1, int MaxSize = 9, int MinFill = 0, int MaxFill = 2)
 {
     Random vasya = new Random();
