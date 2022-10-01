@@ -55,9 +55,10 @@ void PrintRandomArray(int MinSize = 1, int MaxSize = 9, int MinFill = 100, int M
         {
             int count = 0;
             for (int meaning = 0; meaning < bers.Length; meaning++)
+            {
                 if (bers[meaning] % 2 == 0)
                     count++;
-
+            }
             Console.WriteLine($"из {bers.Length} чисел, {count} четных ");
             Console.WriteLine();
         }

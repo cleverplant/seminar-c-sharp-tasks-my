@@ -24,13 +24,12 @@ void PrintRandomArray(int MinSize = 3, int MaxSize = 9)
     PrintArray(numbers); // где в контексте есть вызываемый массив - numbers !!!
     MaxMinDelta(numbers);
     // ----------------------------------------------------------------------------
-    //------------Библиотека реал\Max_Min_Array_Value----
+    // ---Библиотека реал\Max_Min_Array_Value---
 
-    
     void MaxMinDelta(double[] num)
     {
-        double min = Int32.MaxValue;//
-        double max = Int32.MinValue;//
+        double min = Int32.MaxValue;
+        double max = Int32.MinValue;
 
         for (int z = 0; z < numbers.Length; z++)
         {
@@ -54,7 +53,7 @@ void PrintRandomArray(int MinSize = 3, int MaxSize = 9)
         Random mahmud = new Random();
         for (int i = 0; i < num.Length; i++) //num.Length -длина массива = size 
         {
-            num[i] = Convert.ToDouble(mahmud.Next(100, 1000)) / 100;
+            num[i] = Math.Round((mahmud.NextDouble() * 20), 2);
         }
     }
     //-------------------------------------------------------------------------------------
@@ -71,6 +70,4 @@ void PrintRandomArray(int MinSize = 3, int MaxSize = 9)
     Console.WriteLine();
 }
 PrintRandomArray();
-
-
 

@@ -53,7 +53,6 @@ void PrintRandomArray(int MinSize = 5, int MaxSize = 6, int MinFill = 1, int Max
 
     void Parsing(int[] bers)
     {
-
         {
             int sum = 0;
             for (int meaning = 1; meaning < bers.Length; meaning += 2)
@@ -63,7 +62,6 @@ void PrintRandomArray(int MinSize = 5, int MaxSize = 6, int MinFill = 1, int Max
             }
             Console.WriteLine($"всего {numbers.Length} элемента, сумма элементов с нечётными индексами {sum}");
         }
-
     }
 }
 PrintRandomArray();
