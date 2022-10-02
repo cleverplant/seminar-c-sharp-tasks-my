@@ -4,11 +4,10 @@ ________________________________________________________________
 
 ___________________________________________________________________________________________________
 
-<iframe src="https://yoomoney.ru/quickpay/button-widget?targets=%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D1%8B&default-sum=100&button-text=11&yoomoney-payment-type=on&button-size=s&button-color=orange&successURL=&quickpay=small&account=41001197327567&" width="127" height="25" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 
 ____________________________________________________________________________________________________
 
-<iframe src="https://yoomoney.ru/quickpay/button-widget?targets=%D0%94%D0%BE%D0%BD%D0%B0%D1%82%D1%8B&default-sum=100&button-text=11&any-card-payment-type=on&button-size=s&button-color=orange&successURL=&quickpay=small&account=41001197327567&" width="127" height="25" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+
 ________________________________________________________________
 [шпаргалка по форме записи функции и массва]()
 
