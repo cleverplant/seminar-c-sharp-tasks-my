@@ -30,7 +30,7 @@ void ReversSizeDivide2()
         Console.WriteLine();
     }
 
-    void ReversArray(int[] num) /* массив заполняем рандомом */
+    void ReversArray(int[] num) /* массив который уже заполнен переворачиваем */
     {
         int MaxIndex = num.Length - 1;// -> ( num.Length - 1 - i )
         for (int i = 0; i < num.Length / 2; i++)

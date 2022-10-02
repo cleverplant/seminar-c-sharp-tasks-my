@@ -23,8 +23,8 @@ void PrintRandomArray(int MinSize = 1, int MaxSize = 9)
         for (int i = 0; i < num.Length; i++) //num.Length -длина массива = size 
         {
             num[i] =  Math.Round((mahmud.NextDouble() * 20), 2);// сама функция возвращает от 0.0 до 1.0, 
-        }                                    // поэтому нужно домножать на произвольное число,
-    }                                       // чтобы расширить диапозон                   
+        }                                                      // поэтому нужно домножать на произвольное число,
+    }                                                         // чтобы расширить диапозон                   
 //-------------------------------------------------------------------------------------
 
     void PrintArray(double[] numb)
@@ -38,7 +38,6 @@ void PrintRandomArray(int MinSize = 1, int MaxSize = 9)
 
     Console.WriteLine();
 }
-
 PrintRandomArray();
 
 
