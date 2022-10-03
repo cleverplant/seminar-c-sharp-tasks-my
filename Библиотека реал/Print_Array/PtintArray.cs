@@ -1,7 +1,11 @@
 ﻿
 //------------- функция заполнения массива значениями -------------------
+//using HelpMe;
 
-void PrintRandomArray()
+Timing.TimeClass.Clock();
+Timing.TimeClass.Data();
+
+void PrintArray()
 {
     int[] numbers = { 3, 21, 7, 4, 22, 93, 2, 71 };
     int size = numbers.Length;
@@ -9,7 +13,8 @@ void PrintRandomArray()
     Console.WriteLine();
     Console.WriteLine($"{size} <- размер массива ");
     Console.WriteLine();
-
+    // --------------------------------------------------------------------------
+    // Массив уже создан и заполнять нечего, поэтому никаких ФиллЭреев не нужно !!!
     // ---------------------------------------------------------------------------
     
     PrintArray(numbers); // где в контексте есть вызываемый массив - numbers !!!
@@ -26,4 +31,4 @@ void PrintRandomArray()
     }
     Console.WriteLine();
 }
-PrintRandomArray();
+PrintArray();

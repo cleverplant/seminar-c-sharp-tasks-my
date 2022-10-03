@@ -19,15 +19,15 @@ void ShiftArrayLeft()
     }
     void ArrayRight(int[] num) /* массив  */
     {
-        //int tmp = num[0];
+        int tmp = num[0];
         int size = num.Length;
         for (int i = 0; i < size - 1; i++)
         {
-            int tmp = num[0];
             num[i] = num[i + 1];
-            //num[0] = num[size - 1];
+
         }
-        
+        //num[size - 1] = 55;
+        num[size - 1] = tmp;
         Console.WriteLine();
     }
 
@@ -42,3 +42,17 @@ void ShiftArrayLeft()
     Console.WriteLine();
 }
 ShiftArrayLeft();
+
+// static void ShiftElements(int[] arr)
+// {
+//     int prev= arr[0];
+//     int next;
+//     for(int i = 0; i < arr.Length - 1; ++i)
+//     {
+//         next = arr[i+1];
+//         arr[i+1] = prev;
+//         prev = next;
+//     }
+//     arr[0] = prev;
+
+// это решение из интернета и оно мне нравится больше, потому что для тупых

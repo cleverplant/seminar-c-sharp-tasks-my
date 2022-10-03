@@ -1,16 +1,15 @@
 ﻿/* функция массив вправо. 
- НЕ ПОЛУЧАЕТСЯ - НАДО СПРОСИТЬ ПОЧЕМУ
+ 
 */
-
 void ShiftArrayRight()
 {
     {
         Console.WriteLine();
         int[] numbers = { 3, 21, 7, 4, 22, 93, 2, 71 };// 
-        int size = numbers.Length;
+        int sise = numbers.Length;
         //int[] numbers = new int[sise];/* массив создан */
 
-        Console.WriteLine($"{size} <- размер массива");
+        Console.WriteLine($"{sise} <- размер массива");
         Console.WriteLine();
 
         PrintArray(numbers);
@@ -21,14 +20,13 @@ void ShiftArrayRight()
     void ArrayRight(int[] num) /* массив  */
     {
         int size = num.Length;
-        //int tmp = num[0];
-        for (int i = size - 1; i > 0; i--)
+        int tmp = num[size - 1];
+        for (int i = size - 1; i > 0; --i)
         {
-            int tmp = num[0];
-            num[i] = num[i - 1];
-            num[0] = tmp;
-                                   //num[0] = num[size - 1];                // 71 -> 3
+           num[i] =  num[i - 1];
         }
+        //num[0] = 55;
+        num[0] = tmp;
         Console.WriteLine();
     }
 
@@ -43,3 +41,5 @@ void ShiftArrayRight()
     Console.WriteLine();
 }
 ShiftArrayRight();
+
+
