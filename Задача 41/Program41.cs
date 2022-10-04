@@ -42,7 +42,8 @@ void PrintConsoleArray()
 
     ConsoleArray(numbers); // 
     PrintArray(numbers); // 
-    SumValue(numbers);
+    SumValue(numbers); //
+    
     //---- массив на заполнение с консоли ----( Библиотека одномерные массивы\Fill_Print_Console_Array )---------------------
     //--------------------------------------------------------------------------------------------------------
 
