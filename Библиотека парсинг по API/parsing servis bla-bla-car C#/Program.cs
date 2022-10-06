@@ -33,7 +33,7 @@ namespace BlablacarApi
 Оператор цикла foreach в Си-шарп служит для перебора элементов коллекции. 
 К коллекциям относятся массивы, списки List и пользовательские классы коллекций. 
 */
-            foreach (var trip in trips) // 
+            foreach (var trip in trips) //честно стырил из какого то видео. удачно и правильно реализовано 
             {
                 var price = trip["price"];
                 var amount = price["amount"];
