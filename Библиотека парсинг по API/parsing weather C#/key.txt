@@ -19,3 +19,11 @@ Useful links:
 
 api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73
 
+http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73
+
+api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=0a9b051464990ec3facc0b5dba7c7c73
+
+api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73
+
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&lang={ru}
+
