@@ -130,9 +130,13 @@ public GetRequest(string address)
 ____________________________________________________________________________________________
 
 public void Run()
+
         {
+
             _request = (HttpWebRequest)WebRequest.Create(_address);
+            
             _request.Method = "Get";
+
         {
 
 ____________________________________________________________________________________________
