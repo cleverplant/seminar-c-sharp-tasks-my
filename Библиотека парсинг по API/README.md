@@ -29,10 +29,15 @@ ________________________________________________________________________________
 
 _Библиотека Newtonsof:_
 
+______________________________________________________________________________________________________________________
 
 _вы можете увидеть ошибку в -> using Newtonsoft.Json.Linq;
 для работы нужна библиотека Newtonsoft -> в powershell от имени администратора вводим -> 
 Install-Package Newtonsoft.Json._ 
+
+[в powershell получаем:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/Screenshot_1.png)
+
+______________________________________________________________________________________________________________________
 
 _В VScode нужно внести изменения. в файле .csproj -> это сделает автоматически расширение NuGet Gallery
 -> в палитре команд выбираем NuGet Gallery 
@@ -41,6 +46,10 @@ _В VScode нужно внести изменения. в файле .csproj -> 
 <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 </ItemGroup>_
+
+[выбираем Newtonsoft.Json получаем:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/Screenshot_8.png)
+
+______________________________________________________________________________________________________________________
 
 _Ошибка в -> using Newtonsoft.Json.Linq; пропадет. Вожможно требуется перезапуск VScode._
 
@@ -79,7 +88,8 @@ ________________________________________________________________________________
 
 1. [Библиотека для работы с JSON](https://www.newtonsoft.com/json)
 
-[получаем:](Библиотека парсинг по API\parsing weather C#\Screenshot_1.png)
+[в powershell получаем:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/Screenshot_1.png)
+
 
 _у меня не получилось обойтись расширением NuGet Gallery и я устанавливал бибку через:  
 в powershell от имени администратора вводим -> Install-Package Newtonsoft.Json_
@@ -89,7 +99,9 @@ ________________________________________________________________________________
 
 _собственно по задумке оно должно инсталировать бибку в проект, но см.п.1_
 
-[получаем](Библиотека парсинг по API\parsing weather C#\Screenshot_8.png)
+[Расширение NuGet Gallery в нашем VScode для используемой библиотеки](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery)
+
+
 __________________________________________________________________________________________________________________________________________________________
 
 3. [Полный курс по JSON для начинающих](https://www.youtube.com/watch?v=T-xXWXeqc2M&t=40s)
