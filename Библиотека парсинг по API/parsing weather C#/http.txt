@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 05 Oct 2022 02:18:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 479
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?APPID=0a9b051464990ec3facc0b5dba7c7c73&q=london,uk
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":289.85,"feels_like":289.64,"temp_min":288.98,"temp_max":290.37,"pressure":1011,"humidity":79},"visibility":10000,"wind":{"speed":6.69,"deg":220},"clouds":{"all":100},"dt":1664936092,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1664950036,"sunset":1664991026},"timezone":3600,"id":2643743,"name":"London","cod":200}

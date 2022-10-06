@@ -1,0 +1,9 @@
+JSON
+
+https://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
+
+JSON
+Example of API response: Парсинг по API\C#\JSON_Example_of_ API_ response.json
+
+                        
+
