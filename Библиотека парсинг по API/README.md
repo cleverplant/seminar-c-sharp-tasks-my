@@ -36,7 +36,7 @@ _вы можете увидеть ошибку в -> using Newtonsoft.Json.Linq;
 для работы нужна библиотека Newtonsoft -> в powershell от имени администратора вводим -> 
 Install-Package Newtonsoft.Json._ 
 
-[в powershell получаем:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/powershell.png)
+[в powershell получаем картинка:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/powershell.png)
 
 ______________________________________________________________________________________________________________________
 
@@ -51,7 +51,7 @@ _В VScode нужно внести изменения. в файле .csproj -> 
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 </ItemGroup>_
 
-[в Newtonsoft.Json получаем:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/NuGet%20Gallery.png)
+[в Newtonsoft.Json получаем картинка:](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/NuGet%20Gallery.png)
 
 ______________________________________________________________________________________________________________________
 
@@ -252,10 +252,10 @@ ________________________________________________________________________________
 Для чего это нужно знать о JSON ? 
 Надеюсь, что теперь немного понятней ...
 
-[Вот так выглядит то, что мы сделали: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/response%20%26%20reques.png)
+[Вот так выглядит то, что мы сделали картинка: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/response%20%26%20reques.png)
 
 
-[Вот такие виды API существуют: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/%D0%B2%D0%B8%D0%B4%D1%8B%20API.png)
+[Вот такие виды API существуют картинка: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/%D0%B2%D0%B8%D0%B4%D1%8B%20API.png)
 
 ____________________________________________________________________________________________________________________________________________________________
 Материалы и средства используемые в проекте:
@@ -342,9 +342,9 @@ ________________________________________________________________________________
 
 _По API можно парсить по предоставленному API или создать свой API [с помощью инструмента SWAGGER](https://swagger.io/). Как раз об этом в видео [OpenAPI и Swagger Editor - своё описание REST API с нуля](https://www.youtube.com/watch?v=hPzorok-gI4)._*
 
-[Вот так выглядит то, что мы сделали: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/response%20%26%20reques.png)
+[Вот так выглядит то, что мы сделали картинка: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/response%20%26%20reques.png)
 
-[Вот такие виды API существуют: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/%D0%B2%D0%B8%D0%B4%D1%8B%20API.png)
+[Вот такие виды API существуют картинка: ](https://github.com/cleverplant/seminar-c-sharp-tasks-my/blob/main/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3%20%D0%BF%D0%BE%20API/%D0%B2%D0%B8%D0%B4%D1%8B%20API.png)
 
 _____________________________________________________________________________________________________________________________________________________
 
