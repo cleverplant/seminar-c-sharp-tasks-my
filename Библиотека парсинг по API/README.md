@@ -277,31 +277,37 @@ _Резюме_
 **! Перейдем в GetRequest.cs !**
 
 
-1). _Создадим конструктор класса в который передаем строку класса:_ public GetRequest(string address)
+1). _Создадим конструктор класса в который передаем строку класса:_ **public GetRequest(string address)**
 
-2). _Создадим метод Run. Этот метод в нужный момент запускает созданный запрос:_ public void Run() . 
+2). _Создадим метод Run. Этот метод в нужный момент запускает созданный запрос:_ **public void Run()** . 
 
-3). _Создадим объект запроса:_ _request = (HttpWebRequest)WebRequest.Create(_address); . _данный запрос является Get запросом_  _request.Method = "Get";
+3). _Создадим объект запроса:_ _request = (HttpWebRequest)WebRequest.Create(_address); . 
 
-4). _Создадим объект ответа вебсервера:_ HttpWebResponse response = (HttpWebResponse)_request.GetResponse(); . var stream = response.GetResponseStream();
+_данный запрос является Get запросом_  **_request.Method = "Get";**
 
-5). _Создадим метод Response: в этот метод будем записывать ответ от вебсервера:_ 
+4). _Создадим объект ответа вебсервера:_ **HttpWebResponse response = (HttpWebResponse)_request.GetResponse();**
+
+   **var stream = response.GetResponseStream();**
+
+5). _Создадим метод Response: в этот метод будем записывать ответ от вебсервера:_ **public string Response { get; set; }**
 
 -----------------------------------------------------------------------------------------------------------------------------
-**!!! Перейдем в class Program Weather.cs !!!**
+**! Перейдем в class Program Weather.cs !**
 
 
 6). _Cоздаем запрос к веб порталу: В созданную переменную var request нужно передать адрес нашего вебсайта:_ 
 
-var request = new GetRequest($"http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73");
+**var request = new GetRequest($"http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73");**
 
-7). _Чтобы выполнить данный запрос, нужно у объекта request выполнить метод RUN п.2 :_ request.Run(); 
+7). _Чтобы выполнить данный запрос, нужно у объекта request выполнить метод RUN п.2 :_ **request.Run();** 
 
-var response = request.Response;
+**var response = request.Response;**
 
-8). _нам нужно обработать полученный ответ. Для этого создаем переменную в которую пишется парсинг:_ var json = JObject.Parse(response);
+8). _нам нужно обработать полученный ответ. Для этого создаем переменную в которую пишется парсинг:_ 
 
-9). _из переменной var json вытаскиваем нужные нам значения парсинга:_ var name = json["name"];
+**var json = JObject.Parse(response);**
+
+9). _из переменной var json вытаскиваем нужные нам значения парсинга:_ **var name = json["name"];**
 
 ---------------------------------------------------
 
