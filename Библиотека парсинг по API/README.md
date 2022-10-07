@@ -279,7 +279,7 @@ _Резюме_
 
 1). _Создадим конструктор класса в который передаем строку класса:_ **public GetRequest(string address)**
 
-2). _Создадим метод Run. Этот метод в нужный момент запускает созданный запрос:_ **public void Run()** . 
+2). _Создадим метод Run. Этот метод в нужный момент **п.7** запускает созданный запрос:_ **public void Run()** . 
 
 3). _Создадим объект запроса:_ **_request = (HttpWebRequest)WebRequest.Create(_address);** . 
 
@@ -299,7 +299,7 @@ _данный запрос является Get запросом_  **_request.Me
 
 **var request = new GetRequest($"http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=0a9b051464990ec3facc0b5dba7c7c73");**
 
-7). _Чтобы выполнить данный запрос, нужно у объекта request выполнить метод RUN п.2 :_ **request.Run();** 
+7). _Чтобы выполнить данный запрос, нужно у объекта request выполнить метод RUN **п.2**  :_ **request.Run();** 
 
 **var response = request.Response;**
 
