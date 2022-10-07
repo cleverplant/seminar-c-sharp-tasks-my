@@ -281,7 +281,7 @@ _Резюме_
 
 2). _Создадим метод Run. Этот метод в нужный момент запускает созданный запрос:_ **public void Run()** . 
 
-3). _Создадим объект запроса:_ _request = (HttpWebRequest)WebRequest.Create(_address); . 
+3). _Создадим объект запроса:_ **_request = (HttpWebRequest)WebRequest.Create(_address);** . 
 
 _данный запрос является Get запросом_  **_request.Method = "Get";**
 
