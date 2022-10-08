@@ -2,7 +2,7 @@
 
 void PrintRandomArray()
 {
-    int size = 9;
+    int size = 9;// numbers.Length;
     int[] numbers = new int[size];/* массив создан */
 
 

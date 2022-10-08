@@ -76,3 +76,16 @@ namespace OpenweathermapApi
 
 */
 
+/* 
+
+это из питона - надо попробовать... потом... если захочу... но это не точно...
+
+ while True:
+        location = input("Enter a location:").strip()
+        if location:
+            pprint(current_weather(location))
+        else:
+            break // break вреден для организма программы
+*/
+
+

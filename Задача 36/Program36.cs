@@ -66,6 +66,21 @@ void PrintRandomArray(int MinSize = 5, int MaxSize = 6, int MinFill = 1, int Max
 }
 PrintRandomArray();
 
+// или решить так
+/*
+void Parsing(int[] bers)
+{
+    {
+        int count = 0;
+        int sum = 0;
+        for (int i = 1; i < bers.Length; i += 2)
+        {
+            if (bers[i] % 2 == 0) count++;
+            if (i % 2 == 1) sum += bers[i];
 
-
+        }
+        Console.WriteLine($"всего {bers.Length} элемента, сумма элементов с нечётными индексами {sum}");
+    }
+}
+*/
 
