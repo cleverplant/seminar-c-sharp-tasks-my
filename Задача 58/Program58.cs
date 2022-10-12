@@ -13,6 +13,8 @@ Console.Clear();
 
 Console.WriteLine("введите размер квадратного массива");
 int RowsColumns = Convert.ToInt32(Console.ReadLine());
+
+// int RowsColumns = 4;
 int[,] numbers = new int[RowsColumns, RowsColumns];
 
 SpiralArray(numbers);
