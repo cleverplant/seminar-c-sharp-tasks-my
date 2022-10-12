@@ -37,9 +37,9 @@ void ResultArray(int[,] arrayA, int[,] arrayB, int[,] arrayC)
         for (int j = 0; j < arrayB.GetLength(1); j++)
         {
             arrayC[i, j] = 0;
-            for (int k = 0; k < arrayA.GetLength(1); k++)
+            for (int pos = 0; pos < arrayA.GetLength(1); pos++)
             {
-                arrayC[i, j] += arrayA[i, k] * arrayB[k, j];
+                arrayC[i, j] += arrayA[i, pos] * arrayB[pos, j];
             }
         }
     }
