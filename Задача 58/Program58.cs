@@ -10,6 +10,10 @@
 */
 
 Console.Clear();
+Console.Beep();
+Console.ForegroundColor = ConsoleColor.Blue; // устанавливаем цвет
+//Console.ResetColor(); // сбрасываем в стандартный
+//Console.BackgroundColor = ConsoleColor.Red;   // к примеру зеленый
 
 Console.WriteLine("введите размер квадратного массива");
 int RowsColumns = Convert.ToInt32(Console.ReadLine());
@@ -22,25 +26,35 @@ Console.WriteLine();
 PrintArray(numbers);
 Console.WriteLine();
 
-void SpiralArray (int[,] array)
+void SpiralArray(int[,] array)
 {
-int num = 1;
-int i = 0;
-int j = 0;
+    int num = 1;
+    int i = 0;
+    int j = 0;
 
-while (num <= RowsColumns * RowsColumns)
-{
-    array[i, j] = num;
-    if (i <= j + 1 && i + j < RowsColumns - 1)
-        ++j;
-    else if (i < j && i + j >= RowsColumns - 1)
-        ++i;
-    else if (i >= j && i + j > RowsColumns - 1)
-        --j;
-    else
-        --i;
-    ++num;
-}
+    while (num <= RowsColumns * RowsColumns)
+    {
+        array[i, j] = num;
+
+        if (i <= j + 1 && i + j < RowsColumns - 1)
+
+        {
+            ++j;
+        }
+        else if (i < j && i + j >= RowsColumns - 1)
+        {
+            ++i;
+        }
+
+        else if (i >= j && i + j > RowsColumns - 1)
+        {
+            --j;
+        }
+
+        else
+            --i;
+        ++num;
+    }
 }
 
 void FillArray(int[,] array)
@@ -65,5 +79,6 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
     Console.WriteLine("----");
+    Console.Beep();
 }
 
