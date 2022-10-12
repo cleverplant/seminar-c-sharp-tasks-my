@@ -32,13 +32,13 @@ void NumberRow(int[,] array)
     int minRow = 0;
     int minSumRow = 0;
     int sumRow = 0;
-    for (int i = 0; i < numbers.GetLength(1); i++)
+    for (int i = 0; i < array.GetLength(1); i++)
     {
-        minRow += numbers[0, i];
+        minRow += array[0, i];
     }
-    for (int i = 0; i < numbers.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < numbers.GetLength(1); j++) sumRow += numbers[i, j];
+        for (int j = 0; j < array.GetLength(1); j++) sumRow += array[i, j];
         if (sumRow < minRow)
         {
             minRow = sumRow;
@@ -74,4 +74,3 @@ void PrintArray(int[,] array)
     }
     Console.WriteLine("----");
 }
-
