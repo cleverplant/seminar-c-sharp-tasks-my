@@ -5,6 +5,8 @@ M = 1; N = 15 -> 120
 M = 4; N = 8. -> 30
 */
 
+void Recursion()
+{
 
 Console.WriteLine();
 Console.WriteLine("Задайте значение m : ");
@@ -15,8 +17,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 Console.WriteLine(Natural(m, n));
 
-void Recursion()
-{
 int Natural(int m, int n, int sum = 0)
 {
     if (m > n)
