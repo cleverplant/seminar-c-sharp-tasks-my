@@ -13,8 +13,7 @@ namespace Timing
 
         public static void Text()
         {
-            Console.WriteLine("User! Да настигнет тебя Дзеннн!");
-            Console.WriteLine("Время пошло...");
+            Console.WriteLine("Текущее время: ");
         }
     }
 }

@@ -13,9 +13,11 @@ Console.WriteLine("Задайте значение n : ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine();
-Console.WriteLine(TaskNaturSum(m, n));
+Console.WriteLine(Natural(m, n));
 
-int TaskNaturSum(int m, int n, int sum = 0)
+void Recursion()
+{
+int Natural(int m, int n, int sum = 0)
 {
     if (m > n)
     {
@@ -23,9 +25,10 @@ int TaskNaturSum(int m, int n, int sum = 0)
     }
     sum += m;
     m++;
-    return TaskNaturSum(m, n, sum);
+    return Natural(m, n, sum);
 }
-
+}
+Recursion();
 /*
 Задача 67:Напишите программу, 
 которая будет принимать на вход число и возвращать сумму его цифр.
